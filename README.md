@@ -18,7 +18,7 @@ I have [tailscale](https://tailscale.com/blog/how-tailscale-works) setup on both
 
 ## Cold backup
 
-This one is straightforward. The cold backup drive is connected to the main server once a week, updated, then exported and unplugged. The idea is mainly if the main machine has malware or any sort of electrical problems that could corrupt live data, I always have an offline copy that will be unaffected. 
+This one is straightforward. The cold backup drive is connected to the main server `krupskaya` once a week, updated, then exported and unplugged. The idea is mainly if the main machine has malware or any sort of electrical problems that could corrupt live data, I always have an offline copy that will be unaffected. 
 
 To set this up all you need to do is connect the drive via USB, import the pool as `coldbackup`, add a replication task with the source as the main pool and destination as `coldbackup`,run it and unplug. I do this once a week. 
 
