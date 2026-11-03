@@ -1,5 +1,7 @@
 # Homelab backup setup
 
+If you want to use this setup, you can head to the [later section](#setup) dealing with setup.
+
 ## Background
 
 This is my current setup to backup my homelab which is a truenas server while trying to follow the [3-2-1 backup rule](https://en.wikipedia.org/wiki/Backup#3-2-1_backup_rule).
